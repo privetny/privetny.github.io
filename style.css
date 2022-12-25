@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Meie+Script&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Meie Script', cursive;
+}
+header{
+    background-color: red;
+    height: 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav{
+    margin-right: 20px;
+}
+header a{
+    margin-right: 25px;
+}
+
+header img{
+    margin-left: 50px;
+}
+.one{
+
+    height: 700px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.one>.text{
+    margin-left: 100px;
+    width: 500px;
+}
+
+.one>img{
+    margin-right: 50px;
+}
+.two{
+    height: 700px;
+    display: flex;
+    background-color: antiquewhite;
+    flex-wrap:wrap;
+    align-content:space-around;
+    border-radius: 20px;
+}
+.two>.text{
+    width: 500px;
+    margin-left: 100px;
+    background-color: brown;
+    height: 200px;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius: 20px;
+}
+.two>img{
+    margin-left: 200px;
+    border-radius: 20px;
+    height: 300px;
+    width: 400px;
+}
+footer{
+    
+    height: 110px;
+    background-color: red;
+}
+footer>p{
+    margin: 0;
+    padding: 50px;
+}
